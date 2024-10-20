@@ -41,7 +41,9 @@ Make sure to use appropriate voltages on the mini jack inputs. Excessive voltage
 4. Add resistors and an LED for visual indication (optional but recommended).
 5. Respect voltage levels when connecting external devices.
 
-Refer to the wiring schema in the repository: **bela.Glitch.pdf** for detailed instructions on how to set everything up.### Clock and Reset
+Refer to the wiring schema in the repository: [**bela.Glitch.pdf**](./bela.Glitch.pdf) for detailed instructions on how to set everything up.
+
+### Clock and Reset
 
 - **Clock Input (A0)**: Drives the glitch based on external clock signals (PPQN 48).
 - **Clock Reset (A1)**: A trigger input to reset the pattern. This could be a single trigger sent at the start of a pattern in Ableton Live, for instance.
